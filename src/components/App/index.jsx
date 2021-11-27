@@ -1,7 +1,13 @@
+import WorkoutsList from '../WorkoutsList';
+
 import './App.css';
 
-function App() {
-  return <div className='App'></div>;
-}
+const App = () => {
+  return (
+    <div className='app'>
+      <WorkoutsList />
+    </div>
+  );
+};
 
 export default App;
