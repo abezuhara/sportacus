@@ -1,10 +1,14 @@
-import './App.css';
-import Card from './card';
+import WorkoutsList from '../WorkoutsList';
 
-function App() {
-  return <div className='App'>
-    <Card />
-  </div>;
-}
+import Card from '../TrainingCard';
+import './App.css';
+
+const App = () => {
+  return (
+    <div className='app'>
+      <WorkoutsList />
+    </div>
+  );
+};
 
 export default App;
